@@ -5,6 +5,7 @@ from sklearn import linear_model
 
 df = pd.read_csv('rate.csv')
 
+#fairness rated on fair-an-lovely scale
 plt.scatter(df['Fairness'], df['Rate'])
 plt.xlabel('Fairness')
 plt.ylabel('Rate')
